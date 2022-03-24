@@ -1,0 +1,84 @@
+#header{
+    padding:5px 0px;
+}
+nav{
+    list-style-type: none; /*to avoid underline of text under nav tag*/
+    margin:0;
+    padding:0;
+    overflow: hidden; 
+   }
+ ul{
+       list-style-type:none; /*to avoid bullet sign front of text inside ul tag*/ 
+       margin: 0;  
+       padding: 0;  
+       overflow: hidden;  /*helps to give background black color to ul tag*/
+       background-color: #333;
+   }
+li { 
+    float: right;  /*VERY IMPORTANT to stack list elements or text inside list horizontally*/
+    color:white;
+   }
+li:last-child { 
+    float:left;
+}
+a:hover {
+    color: yellow;
+  }
+li a{
+    display:block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+#button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+      }
+
+#background-image{
+    background-image:url("img/2593042.webp");
+    height:900px;
+    padding-top: 100px;
+    color:#fff;
+    background-size: cover;
+    
+}
+#content{
+    background-color:rgba(0,0,0,0.7);
+    max-width:450px;
+    margin-top:50px;
+    padding:30px 20px;
+}
+#button{
+    background-color:red;
+    color:white;
+    padding:10px 5px 10px 5px;
+    border:#FF0000;
+}
+
+.items{
+    width: 33%;
+    float:left;
+    height: auto;
+    margin:0;
+  
+}
+.thumbnail{
+    display:inline-box;
+    padding:4px;
+    margin-bottom:20px;
+    border:1px solid blue;
+    text-align:center;
+    margin:50px;
+    overflow: auto;
+ }
+ footer{
+  text-align: center;
+  padding: 3px;
+  background-color:black;
+  color: white;
+  
+  
+}
+
+
